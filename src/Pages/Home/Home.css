@@ -43,14 +43,11 @@
   }
   
   .addToCartBttn {
-    background-color: transparent;
-    border: 2px solid rgb(19, 19, 19);
+     border: 2px solid rgb(19, 19, 19);
     min-width: 100px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 10px 5px;
     border-radius: 15px;
+    transition: 0.5s all ease;
   }
   
   .addToCartBttn:hover {
