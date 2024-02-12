@@ -3,7 +3,7 @@ import BackGround from "../../assets/AboutPage/background.jpg"
 import './About.css'
 const About = () => {
   return (
-    <div>
+    <div className='about'>
       <div className="aboutTitle">
         <h1>About Wild One</h1>
       </div>
