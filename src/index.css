@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.navbar {
+text-align: center;}
+body {
+  width: 100%;
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 5%,
+    rgba(30, 93, 226, 1) 91%,
+    rgba(9, 9, 121, 1) 99%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
