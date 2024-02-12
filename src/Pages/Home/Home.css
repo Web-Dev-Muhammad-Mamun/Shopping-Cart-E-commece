@@ -24,12 +24,19 @@
   
   .product img {
     width: 400px;
+    border-radius: 10px;
+    height: 300px;
+    margin-bottom: 10px;
   }
   
   .product .description {
     text-align: center;
   }
-  
+  .description p, .description p b {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
   .product:hover {
     transition: 0.3s ease-in;
     cursor: pointer;
