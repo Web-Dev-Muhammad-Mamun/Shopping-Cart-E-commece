@@ -1,13 +1,23 @@
+
+
 .aboutTitle {
     position: absolute;
 }
-.aboutTitle h1, .aboutTitle p b {
-    position: relative;
+.aboutTitle  {
+    -webkit-box-shadow: -6px 1px 23px 1px rgba(156,150,156,1);
+-moz-box-shadow: -6px 1px 23px 1px rgba(156,150,156,1);
+box-shadow: -6px 1px 23px 1px rgba(156,150,156,1);
+padding: 2rem;
+border-radius: 10px;
     z-index: 11;
     text-align: center;
-    margin-top: 17rem;
-    margin-left: 25rem;
-
+    margin-top: 20rem;
+    margin-left: 22rem;
+}
+.aboutTitle p b , .aboutTitle h1 {
+    color: #222222;
+    margin-bottom: 20px;
+    font-size: 30px;
 }
 .backgroundImage img {
     width: 100%;

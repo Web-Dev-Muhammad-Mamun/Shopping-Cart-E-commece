@@ -7,18 +7,16 @@ const About = () => {
       <div className="aboutTitle">
         <h1>About Wild One</h1>
         <p>
-          <b>
-            Good Product stars with <br />
-            Good ingredients
-          </b>
+          <b>Good Product stars with</b>
+        </p>
+        <p>
+          <b>Good ingredients</b>{" "}
         </p>
       </div>
       <div className="backgroundImage">
         <img src={BackGround} alt="" />
       </div>
-      <div className="description">
-       
-      </div>
+      <div className="description"></div>
     </div>
   );
 };

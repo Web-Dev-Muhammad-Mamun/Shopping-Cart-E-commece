@@ -4,6 +4,9 @@ import { ShopContext } from '../../Context/Shop_Context'
 import CartItem from './CartItem'
 import './Cart.css'
 import { useNavigate } from 'react-router-dom'
+import EmptyCartGif from '../../assets/emptyCart/emptycart (2).gif'
+
+
 const Cart = () => {
   const {cartItems, getTotalCartAmount } = useContext(ShopContext)
   let totalAmount = getTotalCartAmount()
@@ -29,9 +32,13 @@ const Cart = () => {
         <button onClick={() => navigate('/')}>Continue Shopping</button>
         <button>Checkout</button>
       </div>
-      : <h1>
+      : <div className='emptyCart'>
+      <h1>
         Your Cart is Empty
-      </h1> }
+      </h1> 
+      <img src={EmptyCartGif} alt="" />
+      </div>
+      }
     </div>
   )
 }
