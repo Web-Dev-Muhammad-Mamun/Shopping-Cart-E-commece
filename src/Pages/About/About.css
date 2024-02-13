@@ -1,25 +1,39 @@
-
-
 .aboutTitle {
-    position: absolute;
+  position: absolute;
 }
-.aboutTitle  {
-    -webkit-box-shadow: -6px 1px 23px 1px rgba(156,150,156,1);
--moz-box-shadow: -6px 1px 23px 1px rgba(156,150,156,1);
-box-shadow: -6px 1px 23px 1px rgba(156,150,156,1);
-padding: 2rem;
-border-radius: 10px;
-    z-index: 11;
-    text-align: center;
-    margin-top: 20rem;
-    margin-left: 22rem;
+.aboutTitle {
+  -webkit-box-shadow: -6px 1px 23px 1px rgba(156, 150, 156, 1);
+  -moz-box-shadow: -6px 1px 23px 1px rgba(156, 150, 156, 1);
+  box-shadow: -6px 1px 23px 1px rgba(156, 150, 156, 1);
+  padding: 2rem;
+  border-radius: 10px;
+  z-index: 11;
+  text-align: center;
+  margin-top: 20rem;
+  margin-left: 22rem;
 }
-.aboutTitle p b , .aboutTitle h1 {
-    color: #222222;
-    margin-bottom: 20px;
-    font-size: 30px;
+.aboutTitle p b,
+.aboutTitle h1 {
+  color: #222222;
+  margin-bottom: 20px;
+  font-size: 30px;
 }
 .backgroundImage img {
+  width: 100%;
+  height: 100vh;
+}
+@media (max-width: 768px) {
+  .backgroundImage img {
     width: 100%;
     height: 100vh;
+  }
+  .aboutTitle {
+    
+    margin-left: 12px;
+    margin-top: 15rem;
+  }
+  .aboutTitle p b,
+  .aboutTitle h1 {
+    font-size: 26px;
+  }
 }

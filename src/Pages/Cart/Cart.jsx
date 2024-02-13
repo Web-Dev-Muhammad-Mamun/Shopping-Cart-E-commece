@@ -4,7 +4,7 @@ import { ShopContext } from '../../Context/Shop_Context'
 import CartItem from './CartItem'
 import './Cart.css'
 import { useNavigate } from 'react-router-dom'
-import EmptyCartGif from '../../assets/emptyCart/emptycart (2).gif'
+import EmptyCartGif from '../../assets/emptyCart/emptycart (2).jpg'
 
 
 const Cart = () => {
@@ -37,6 +37,7 @@ const Cart = () => {
         Your Cart is Empty
       </h1> 
       <img src={EmptyCartGif} alt="" />
+      
       </div>
       }
     </div>
