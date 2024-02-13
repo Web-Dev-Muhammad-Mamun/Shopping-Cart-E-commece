@@ -1,8 +1,6 @@
 import { FaHome } from "react-icons/fa";
-import { MdOutlineTour } from "react-icons/md";
 import { FcAbout } from "react-icons/fc";
-import { IoIosContact } from "react-icons/io";
-import { MdOutlineAppRegistration } from "react-icons/md";
+import { FaOpencart } from "react-icons/fa";
 
 export const MenuData = [
   {
@@ -20,7 +18,7 @@ export const MenuData = [
   {
     title: "Cart",
     cname: "nav-links",
-    icon: <MdOutlineTour />,
+    icon: <FaOpencart />,
     path: "/cart",
   },
   // {
