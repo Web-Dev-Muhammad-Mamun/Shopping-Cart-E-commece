@@ -1,13 +1,15 @@
 .aboutTitle {
     position: absolute;
 }
-.aboutTitle h1 {
+.aboutTitle h1, .aboutTitle p b {
     position: relative;
     z-index: 11;
     text-align: center;
-    margin-top: 8rem;
+    margin-top: 17rem;
+    margin-left: 25rem;
+
 }
-.description img {
+.backgroundImage img {
     width: 100%;
     height: 100vh;
 }

@@ -23,10 +23,10 @@ export const MenuData = [
     icon: <MdOutlineTour />,
     path: "/cart",
   },
-  {
-    title: "Sign Up",
-    cname: "nav-links-mobile",
-    icon: <MdOutlineAppRegistration />,
-    path: "/signup",
-  },
+  // {
+  //   title: "Sign Up",
+  //   cname: "nav-links-mobile",
+  //   icon: <MdOutlineAppRegistration />,
+  //   path: "/signup",
+  // },
 ];
