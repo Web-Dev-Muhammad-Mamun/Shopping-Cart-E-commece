@@ -19,8 +19,10 @@
   font-size: 30px;
 }
 .backgroundImage img {
+  margin-top: 7rem;
   width: 100%;
   height: 100vh;
+  border-radius: 5px 5px 0px 0px;
 }
 @media (max-width: 768px) {
   .backgroundImage img {
