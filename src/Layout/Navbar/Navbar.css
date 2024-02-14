@@ -28,10 +28,12 @@
     text-align: center;
   }
   .nav-links {
+    color: #222;
     text-decoration: none;
     padding: 0.7rem 1rem;
     white-space: nowrap;
   }
+
   .nav-links i {
     padding-right: 10px;
   }
