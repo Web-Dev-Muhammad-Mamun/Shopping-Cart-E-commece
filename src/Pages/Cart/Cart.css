@@ -1,4 +1,5 @@
 .cart {
+  width: 1280px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,4 +65,9 @@
   .emptyCart h1 {
     margin-bottom: 20px;
     font-style: italic;
+  }
+  @media (max-width: 768px) {
+   .cart {
+    width: 400px;
+   } 
   }
