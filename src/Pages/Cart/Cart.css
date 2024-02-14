@@ -13,7 +13,6 @@
     -webkit-box-shadow: -6px 1px 23px 1px rgba(156,150,156,1);
     -moz-box-shadow: -6px 1px 23px 1px rgba(156,150,156,1);
     box-shadow: -6px 1px 23px 1px rgba(156,150,156,1);
-    color: #fff;
   }
   .cartItem {
     height: 250px;
@@ -46,7 +45,6 @@
     width: 150px;
     height: 50px;
     background-color: rgb(19, 19, 19);
-    color: white;
     border: none;
     border-radius: 8px;
     margin: 10px;
@@ -65,6 +63,5 @@
   }
   .emptyCart h1 {
     margin-bottom: 20px;
-    color: #fff;
     font-style: italic;
   }
